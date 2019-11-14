@@ -48,7 +48,7 @@ function Counter() {
       </button>
       <label>
             number
-          <input type="number" name="id" />
+          <input type="text" value={count} required onChange={(e) => setCount(e.target.value)} />
       </label>
           
     </div>
